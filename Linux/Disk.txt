@@ -1,12 +1,12 @@
 ========================================================================================================================================
-This command lists all block devices in the system as trees. If a device is mounted somewhere, its mounting point is also shown.
+Command to lists all block devices in the system as trees. If a device is mounted somewhere, its mounting point is also shown.
 
 #lsblk
 
 ========================================================================================================================================	
 Re-scan disk using below command
 
-#echo 1>/sys/class/block/sdd/device/rescan
+#echo 1>/sys/class/block/sdX/device/rescan
 OR
 #echo 1>/sys/class/scsi_device/X:X:X:X/device/block/device/rescan
 
