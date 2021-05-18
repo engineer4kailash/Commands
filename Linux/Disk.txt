@@ -1,5 +1,5 @@
 ========================================================================================================================================
-Command to lists all block devices in the system as trees. If a device is mounted somewhere, its mounting point is also shown.
+Command to list all block devices in the system as trees. If a device is mounted somewhere, its mounting point is also shown.
 
 #lsblk
 
