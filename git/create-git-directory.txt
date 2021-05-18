@@ -1,6 +1,9 @@
-new git repository
 Create a directory to contain the project.
 Go into the new directory.
-Type git init .
-Write some code.
-Type git commit .  -m First Commit"
+Type git init .  #Initialize the local directory as a Git repository.
+Write some code/data.
+Type git add . # Adds the files in the local repository and stages them for commit.
+Type git commit .  -m First Commit" # Commits the tracked changes and prepares them to be pushed to a remote repository.
+Type git remote add origin  <REMOTE_URL> # Sets the new remote
+$ git remote -v # Verifies the new remote URL
+$ git push origin main # Pushes the changes in your local repository up to the remote repository you specified as the origin
