@@ -1,4 +1,4 @@
-##<p align="center"><b><ins>NSX-T Commands</ins></b></p align="center">
+<p align="center"><ins>**NSX-T Commands**</ins></p align="center">
 
 <div class="center">
 
