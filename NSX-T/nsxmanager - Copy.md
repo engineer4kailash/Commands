@@ -1,5 +1,6 @@
-<p align="center"> NSX-T Commands <p align="center">
-
-| --- |
+<p align="center"> NSX-T Commands
 | Command | Description |
 | --- | --- |
+
+
+<p align="center">
