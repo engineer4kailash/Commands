@@ -11,9 +11,9 @@
 
 | Description | Command |
 | :--- | :---: |
-| get the naa.id or labelname of the Datastore/LUN | ***esxcli storage core path list***<br /> ***esxcli-scsidevs -l*** <br /> ***esxcli storage vmfs extent list*** <br/>***esxcli storage filesystem list***|
-| get the list of permanently detached devices | ***esxcli storage core device detached list*** |br/
-| detach a device/LUN | ***esxcli storage core device detached list*** |
+| get the naa_id or label_name of the Datastore/LUN | ***esxcli storage core path list***<br /> ***esxcli-scsidevs -l*** <br /> ***esxcli storage vmfs extent list*** <br/>***esxcli storage filesystem list***|
+| get the list of permanently detached devices | ***esxcli storage core device detached list*** |
+| detach a device/LUN | ***esxcli storage core device detached remove -d naa_id*** |
 | get the list of permanently detached devices | ***esxcli storage core device detached list***|
 | detach a device/LUN | ***esxcli storage core device detached list***|
 | verify that the device is offline (The output, which shows that the status of the disk is off,) | ***esxcli storage core device list -d <NAA ID>***|
