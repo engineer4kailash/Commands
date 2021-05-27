@@ -1,12 +1,13 @@
 ## <p align="center"><ins>DCUI Console Keys</ins></p>
 <div align="center">
+
 | Description | Shortcuts|
 | :--- | :--- |
 | Switches to the console| ***ALT+F1***|
 | Switches to the DCUI| ***ALT+F2***|
 | Returns to the banner screen| ***ALT+F11***|
 | Displays the VMkernel log on the console| ***ALT+F12***|
-
+</div>
 ## <p align="center"><ins>Storage</ins></p>
 
 | Description | Command |
