@@ -1,3 +1,9 @@
+## <p align="center"><ins>Disks</ins></p>
+
+| Description | Shortcuts|
+| :--- | :---: |
+| list all block devices| ***lsblk***|
+
 ========================================================================================================================================
 Command to list all block devices in the system as trees. If a device is mounted somewhere, its mounting point is also shown.
 
