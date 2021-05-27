@@ -1,5 +1,5 @@
 
-<p align="center"><B><U>NSX-T Commands</U></B></p align="center">
+<p align="center"><b><u>NSX-T Commands</u></b></p align="center">
 
 <div class="center">
 
