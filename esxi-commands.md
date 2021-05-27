@@ -7,7 +7,7 @@
 | Switches to the DCUI| ***ALT+F2***|
 | Returns to the banner screen| ***ALT+F11***|
 | Displays the VMkernel log on the console| ***ALT+F12***|
-</div>
+
 ## <p align="center"><ins>Storage</ins></p>
 
 | Description | Command |
