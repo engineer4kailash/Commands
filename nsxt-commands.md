@@ -12,6 +12,6 @@
 | Command | Description |
 | :--- | :---: |
 | List all the logical Routers on Transport Node/Edges | ***get logical-routers*** |
-| Select VRF routing context on Node | ***VRF VRF_NUMBER*** |
+| Select VRF routing context on Node | ***vrf vrf_number*** |
 | Get the BGP neighbor status  | ***get bgp neighbor summary*** |
 | Get the Routes in VRF /Logical Routers | ***get routes ipv4*** |
