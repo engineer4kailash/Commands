@@ -1,8 +1,4 @@
-## <p align="center"><ins>NSX-T Commands</ins></p>
-
-| NSX-T Manager | 
-| --- |
-
+## <p align="center"><ins>NSX-T Manager</ins></p>
 | Command | Description |
 | --- | --- |
 |NSX-T Cluster Manager details|get managers|
