@@ -1,6 +1,6 @@
 <p align="center"><B>NSX-T Commands</B></p align="center">
 
-<center>
+.center[
 
 | Command | Description |
 | --- | --- |
@@ -9,4 +9,4 @@
 |NSX-T Cluster Status Detailed|get cluster status verbose|
 |NSX-T Cluster Configuration Details|get cluster config|
 
-</center>
+]
