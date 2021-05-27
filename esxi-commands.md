@@ -3,7 +3,7 @@
 
 | Description | Shortcuts|
 | :--- | :--- |
-| Switches to the esxi Shell| ***ALT+F1***|
+| Switches to the esxi shell| ***ALT+F1***|
 | Switches to the DCUI| ***ALT+F2***|
 | Returns to the banner screen| ***ALT+F11***|
 | Displays the VMkernel log on the console| ***ALT+F12***|
