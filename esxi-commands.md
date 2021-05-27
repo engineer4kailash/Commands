@@ -8,7 +8,7 @@
 | To detach a device/LUN | ***esxcli storage core device detached list***|
 | To verify that the device is offline (The output, which shows that the status of the disk is off,) | ***esxcli storage core device list -d <NAA ID>***|
 | Permanently remove the device configuration information from the system | ***esxcli storage core device detached remove -d <NAA ID>***|
-| RESCAN hba for LUNS\Storage | ***esxcli storage core adapter rescan [ -A vmhba# | –all ]***|
+| rescan hba for LUNS\Storage | ***esxcli storage core adapter rescan [ -A vmhba# /| –all ]***|
 
 
 | Description | Urls|
