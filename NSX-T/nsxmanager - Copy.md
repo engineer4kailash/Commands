@@ -1,5 +1,6 @@
-<p align="center">**
-<ins>NSX-T Commands</ins>
+<p align="center"><ins>
+**NSX-T Commands**
+</ins>
 **
 </p align="center">
 
