@@ -1,7 +1,6 @@
 ## <p align="center"><ins>NSX-T Commands</ins></p>
 
 <div class="center">
-
 | Command | Description |
 | --- | --- |
 |NSX-T Cluster Manager details|get managers|
