@@ -2,7 +2,7 @@
 <div align="center">
 
 | Topic | Product | Status |
-| :--- | :--- |
+| :--- | :--- | :--- |
 | VMware Cloud Foundation | VCF | Pending |
 | VMware Imaging Appliance service (VIA)|VCF|Pending|
 | VMware Cloud Builder| VCF|Pending|
