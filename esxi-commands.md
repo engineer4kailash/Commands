@@ -1,4 +1,17 @@
-## <p align="center"><ins>Storage</ins></p>
+## <p align="center"><ins>DCUI Console Keys</ins></p>
+
+| Description | Shortcuts|
+| :--- | :---: |
+| Switches to the console| ***ALT+F1***|
+| Switches to the DCUI| ***ALT+F2***|
+| Returns to the banner screen| ***ALT+F11***|
+| Displays the VMkernel log on the console| ***ALT+F12***|
+
+ = Switches to the console.
+ALT+F2 = Switches to the DCUI.
+ALT+F11 = Returns to the banner screen.
+ALT+F12 = Displays the VMkernel log on the console
+
 | Description | Command |
 | :--- | :---: |
 | get the naa.id or label name of the Datastore/LUN | ***esxcli storage vmfs extent list*** |
