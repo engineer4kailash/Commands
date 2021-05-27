@@ -22,7 +22,7 @@
 | detach a device/LUN | ***esxcli storage core device detached list***|
 | verify that the device is offline (The output, which shows that the status of the disk is off,) | ***esxcli storage core device list -d <NAA ID>***|
 | Permanently remove the device configuration information from the system | ***esxcli storage core device detached remove -d <NAA ID>***|
-| rescan hba for LUNS\Storage | ***esxcli storage core adapter rescan [ -A vmhba# \| –all ]***|
+| rescan hba for LUNS\Storage | ***esxcli storage core adapter rescan -A vmhbaX \| –all ***|
 | Unmount the datastore | ***esxcli storage filesystem unmount -u uuid \| -l lable \| -p path***|
 || ***esxcli storage filesystem unmount -l LUN01*** |
 || ***esxcli storage filesystem unmount -u 4e414917-a8d75514-6bae-0019b9f1ecf4***|
