@@ -14,7 +14,7 @@
 | :--- | :--- |
 | get the naa_id or label_name of the Datastore/LUN | ***esxcli storage core path list***<br /> ***esxcli-scsidevs -l*** <br /> ***esxcli storage vmfs extent list*** <br/>***esxcli storage filesystem list***|
 | get the list of permanently detached devices | ***esxcli storage core device detached list*** |
-| verify the device status | ***esxcli storage core device list -d <NAA ID>***|
+| verify the device status | ***esxcli storage core device list -d <NAA ID>naa.id***|
 | detach a device/LUN | ***esxcli storage core device detached remove -d naa_id*** |
 | Permanently remove the device configuration <br/>information from the system | ***esxcli storage core device detached remove -d naa.id***|
 | rescan hba for LUNS\Storage | ***esxcli storage core adapter rescan -A vmhbaX \| –all*** |
