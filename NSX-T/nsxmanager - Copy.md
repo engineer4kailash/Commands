@@ -1,5 +1,5 @@
 ## <p align="center"><ins>NSX-T Manager</ins></p>
-| \2. NSX-T Manager |
+| > | NSX-T Manager |
 | :--- | :---: |
 | Command | Description |
 | NSX-T Cluster Manager details | ***get managers*** |
