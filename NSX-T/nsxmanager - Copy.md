@@ -1,3 +1,4 @@
+<div class="center">
 <p align="center"><B>NSX-T Commands</B></p align="center">
 
 .center[
