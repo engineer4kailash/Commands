@@ -11,9 +11,7 @@
 
 | Description | Command |
 | :--- | :---: |
-| get the naa.id or label name of the Datastore/LUN | ***esxcli storage vmfs extent list*** <br />|
-| generate a list of all LUN paths currently connected | ***esxcli storage core path list***<br /> ***esxcli-scsidevs -l*** <br /> ***esxcli storage vmfs extent list*** <br/>***esxcli storage filesystem list***|
-| command to list out all the VMFS backed datastores | ***esxcfg-scsidevs -m*** |
+| get the naa.id or labelname of the Datastore/LUN | ***esxcli storage core path list***<br /> ***esxcli-scsidevs -l*** <br /> ***esxcli storage vmfs extent list*** <br/>***esxcli storage filesystem list***|
 | get the list of permanently detached devices | ***esxcli storage core device detached list*** |br/
 | detach a device/LUN | ***esxcli storage core device detached list*** |
 | get the list of permanently detached devices | ***esxcli storage core device detached list***|
