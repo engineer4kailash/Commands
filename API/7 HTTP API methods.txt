@@ -1,0 +1,49 @@
+=======================================================================================================================
+GET
+
+GET method is used to retreive data from a server at the specified resource
+
+=======================================================================================================================
+POST
+
+POST requests are used to send data to the API server to create or udpate a resource
+=======================================================================================================================
+PUT
+
+Simlar to POST, PUT requests are used to send data to the API to update or create a resource. 
+The difference is that PUT requests are idempotent. That is, calling the same PUT request 
+multiple times will always produce the same result. In contrast, calling a POST request 
+repeatedly make have side effects of creating the same resource multiple times.
+=======================================================================================================================
+PATCH
+
+It is similar to POST and PUT. The difference with PATCH is that you only apply partial modifications
+to the resource.
+
+The difference between PATCH and PUT, is that a PATCH request is non-idempotent (like a POST request).
+
+=======================================================================================================================
+
+DELETE
+
+The DELETE method is exactly as it sounds: delete the resource at the specified URL.
+=======================================================================================================================
+HEAD
+
+The HEAD method is almost identical to GET, except without the response body. In other words, 
+if GET /users returns a list of users, then HEAD /users will make the same request but won't 
+get back the list of users.
+
+HEAD requests are useful for checking what a GET request will return before actually making 
+a GET request -- like before downloading a large file or response body. Learn more about HEAD 
+requests on MDN.
+
+It's worth pointing out that not every endpoint that supports GET will support HEAD - it 
+completely depends on the API you're testing.
+=======================================================================================================================
+OPTIONS
+OPTIONS request should return data describing what other methods and operations the server supports at the given URL.
+
+OPTIONS requests are more loosely defined and used than the others, making them a good candidate to test for fatal API
+errors. If an API isn't expecting an OPTIONS request, it's good to put a test case in place that verifies failing behavior.
+=======================================================================================================================
