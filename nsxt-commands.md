@@ -1,6 +1,6 @@
 ## <p align="center"><ins>NSX-T Manager</ins></p>
 
-| Command | Description |
+| Description | Command |
 | :--- | :---: |
 | NSX-T Cluster Manager details | ***get managers*** |
 | NSX-T Cluster Status | ***get cluster status*** |
@@ -9,7 +9,7 @@
 
 ## <p align="center"><ins>Logical Routers</ins></p>
 
-| Command | Description |
+| Description | Command |
 | :--- | :---: |
 | List all the logical Routers on Transport Node/Edges | ***get logical-routers*** |
 | Select VRF routing context on Node | ***vrf vrf_number*** |
