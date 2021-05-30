@@ -39,8 +39,7 @@
 | Description | urls|
 | :--- | :--- |
 | esxtop Guide | ***https://www.virten.net/vmware/esxtop/*** |
-| vscsiStats   | ***http://www.yellow-bricks.com/2009/12/17/vscsistats/***|
-| vscsiStats   | ***http://www.gabesvirtualworld.com/converting-vscsistats-data-into-excel-charts/***|
+| vscsiStats   | ***http://www.yellow-bricks.com/2009/12/17/vscsistats/***<br /> ***http://www.gabesvirtualworld.com/converting-vscsistats-data-into-excel-charts/***|
 |How to Remove Storage Devices from ESXi Hosts|***https://lazyadminblog.com/2015/11/21/how-to-remove-storage-devices-from-esxi-hosts/***|
  
 </div>
