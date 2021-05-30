@@ -34,6 +34,14 @@
 | rescan hba for LUNS\Storage | ***esxcli storage core adapter rescan -A vmhbaX \| –all*** |
 | Unmount the datastore | ***esxcli storage filesystem unmount -u uuid \| -l lable \| -p path***<br/><br/> <ins>examples:</ins> <br/> ***esxcli storage filesystem unmount -l LUN01*** <br/> ***esxcli storage filesystem unmount -u 4e414917-a8d75514-6bae-0019b9f1ecf4*** <br/> ***esxcli storage filesystem unmount -p /vmfs/volumes/4e414917-a8d75514-6bae-0019b9f1ecf4***|
 
+## <p align="center"><ins>Network</ins></p>
+
+| Description | Command |
+| :--- | :--- |
+| Status of the ESXi firewall | ***esxcli network firewall get*** |
+| List of all enabled firewall rules on ESXi | ***esxcli network firewall ruleset list*** |
+| Displays the IPv4 configuration for all the interfaces present on ESXi | ***esxcli network ip interface ipv4 get*** |
+
 ## <p align="center"><ins>Important urls</ins></p>
 
 | Description | urls|
