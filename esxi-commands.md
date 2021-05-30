@@ -8,6 +8,13 @@
 | Returns to the banner screen| ***ALT+F11***|
 | Displays the VMkernel log on the console| ***ALT+F12***|
 
+
+## <p align="center"><ins>System related commands</ins></p>
+
+| Description | Command |
+| :--- | :--- |
+| ESXi build and version numbers | ***esxcli system version get*** <br /> ***vmware -vl*** |
+
 ## <p align="center"><ins>Storage</ins></p>
 
 | Description | Command |
