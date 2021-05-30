@@ -30,3 +30,6 @@
 |How to Remove Storage Devices from ESXi Hosts|***https://lazyadminblog.com/2015/11/21/how-to-remove-storage-devices-from-esxi-hosts/***|
  
 </div>
+
+## <p align="center"><ins>Important Notes</ins></p>
+- localcli commands are equivalent to ESXCLI commands, but bypass hostd. The localcli commands are only for situations when hostd is unavailable and cannot be restarted. After you run a localcli command, you must restart hostd. Run ESXCLI commands after the restart.Warning: If you use a localcli command in other situations, an inconsistent system state and potential failure can result.
