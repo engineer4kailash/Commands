@@ -14,6 +14,13 @@
 | Description | Command |
 | :--- | :--- |
 | ESXi build and version numbers | ***esxcli system version get*** <br /> ***vmware -vl*** |
+| Hostname, domain and FQDN for the host | ***esxcli system hostname get*** |
+| Date and Time of when ESXi was installed | ***esxcli system stats installtime get*** |
+| Lists the local users created on the ESXi host | ***esxcli system account list*** |
+| To enter maintenance Mode | ***esxcli system maintenanceMode set –enable true*** |
+| To exit maintenance Mode | ***esxcli system maintenanceMode set –enable false*** |
+| To Check the maintenance Mode Status | ***esxcli system maintenanceMode get*** |
+
 
 ## <p align="center"><ins>Storage</ins></p>
 
