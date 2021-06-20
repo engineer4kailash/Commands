@@ -2,4 +2,6 @@
 
 
 Get the List of NSX-T package List
+```
 esxcli software vib list /|/grep -i nsx
+```
