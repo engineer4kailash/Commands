@@ -20,6 +20,7 @@
 | To enter maintenance Mode | ***esxcli system maintenanceMode set –enable true*** |
 | To exit maintenance Mode | ***esxcli system maintenanceMode set –enable false*** |
 | To Check the maintenance Mode Status | ***esxcli system maintenanceMode get*** |
+| VIB Installation version in ESXi  | ***esxcli software vib list*** |
 
 
 ## <p align="center"><ins>Storage</ins></p>
@@ -41,6 +42,13 @@
 | Status of the ESXi firewall | ***esxcli network firewall get*** |
 | List of all enabled firewall rules on ESXi | ***esxcli network firewall ruleset list*** |
 | Displays the IPv4 configuration for all the interfaces present on ESXi | ***esxcli network ip interface ipv4 get*** |
+| List of Physical Uplinks | ***esxcli network nic list*** |
+| VMware’s ifconfig | ***esxcli network ip interface list*** |
+| VMware’s netstat | ***esxcli network ip connection list*** |
+| Networking info about the VMs | ***esxcli network vm list*** |
+| Get an uplink stats | ***esxcli network nic stats get -n vmnic1*** |
+| Get the Netqueue stats | ***vsish -e get /net/pNics/vmnic1/stats*** |
+| Get the driver info | ***esxcli network nic get -n vmnic#*** |
 | Test Connectivity of vmk uplink | ***vmkping ++netstack=vxlan -s PacketSize -d -I vmkX Destination*** |
 
 ## <p align="center"><ins>Important urls</ins></p>
