@@ -41,7 +41,7 @@
 | Status of the ESXi firewall | ***esxcli network firewall get*** |
 | List of all enabled firewall rules on ESXi | ***esxcli network firewall ruleset list*** |
 | Displays the IPv4 configuration for all the interfaces present on ESXi | ***esxcli network ip interface ipv4 get*** |
-| Test Connectivity of vmk uplink | ***vmkping ++netstack=vxlan -s PacketSize -d -I vmkX Destination *** |
+| Test Connectivity of vmk uplink | ***vmkping ++netstack=vxlan -s PacketSize -d -I vmkX Destination*** |
 
 ## <p align="center"><ins>Important urls</ins></p>
 
