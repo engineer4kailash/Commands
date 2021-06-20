@@ -11,7 +11,7 @@
 | NSX-T Manager to display transport node table | ***get logical-switch transport-node-table*** |
 | From NSX Edge to see routes | ***get logical-router<br>vrf number_of_T0<br>get route*** |
 | From NSX Edge to see BGP Neighbor | ***get cluster config*** |
-| NSX-T Cluster Configuration Details | ***get logical-router<br>vrf <number of T0> <br>get bgp neighbor*** |
+| NSX-T Cluster Configuration Details | ***get logical-router<br>vrf number_of_T0<br>get bgp neighbor*** |
 | NSX-T Cluster Configuration Details | ***get cluster config*** |
 | NSX-T Cluster Configuration Details | ***get cluster config*** |
 | NSX-T Cluster Configuration Details | ***get cluster config*** |
