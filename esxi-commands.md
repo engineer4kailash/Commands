@@ -26,7 +26,7 @@
 
 | Description | Command |
 | :--- | :--- |
-|ESXTOP- Batch Mode|esxtop -b -d 2 -n 100 > esxtop.csv<br/>b=batch mode<br/>d=delay<br/>n=No of Iterations<br/>a=all Metrics|
+|ESXTOP- Batch Mode|***esxtop -b -d 2 -n 100 > esxtop.csv***<br/>b=batch mode<br/>d=delay<br/>n=No of Iterations<br/>a=all Metrics|
 
 ## <p align="center"><ins>Storage</ins></p>
 
