@@ -22,6 +22,11 @@
 | To Check the maintenance Mode Status | ***esxcli system maintenanceMode get*** |
 | VIB Installation version in ESXi  | ***esxcli software vib list*** |
 
+## <p align="center"><ins>ESXTOP</ins></p>
+
+| Description | Command |
+| :--- | :--- |
+|ESXTOP- Batch Mode|esxtop -b -d 2 -n 100 > esxtop.csv<br/>b=batch mode<br/>d=delay<br/>n=No of Iterations<br/>a=all Metrics|
 
 ## <p align="center"><ins>Storage</ins></p>
 
